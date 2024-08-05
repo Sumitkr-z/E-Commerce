@@ -1,0 +1,42 @@
+/* Cart.css */
+
+.cart-container {
+  background-color: #f8f9fa;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.cart-title {
+  color: #343a40;
+  margin-bottom: 20px;
+}
+
+.table thead th {
+  background-color: #343a40;
+  color: #fff;
+}
+
+.table tbody tr {
+  transition: background-color 0.3s;
+}
+
+.table tbody tr:hover {
+  background-color: #e9ecef;
+}
+
+.table tfoot td {
+  font-weight: bold;
+}
+
+.btn-remove {
+  background-color: #dc3545;
+  border-color: #dc3545;
+  color: #fff;
+  transition: background-color 0.3s;
+}
+
+.btn-remove:hover {
+  background-color: #c82333;
+  border-color: #bd2130;
+}

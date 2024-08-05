@@ -1,0 +1,37 @@
+:root {
+  --dark-color: #3074f0;
+  --primary-color: #f7c9d2;
+  --light-color: #f5f5f5;
+  --success-color: #5c5e60;
+  --logo-color:#f4f4f4;
+}
+h2{
+  font-size: 2.5rem;
+}
+
+.home_category{
+border:2px solid #e8e8e8;
+margin:0.8rem ;
+border-radius: 5px;
+padding: 0.5rem;
+cursor: pointer;
+}
+.home_category:hover{
+  transition: 0.3s ease-in-out;
+  background: var(--light-color);
+  color: #000;
+  border: 2px solid var(--dark-color);
+  transform: scale(1.05);
+  box-shadow: 1px 6px 10px -1px rgb(116, 116,116);
+  box-sizing: border-box;
+}
+.Category_title{
+  font-size: 0.8rem;
+  color: var(--success-color);
+}
+
+.home_category img {
+  max-height: 90px; 
+  max-width: 100%; 
+  object-fit: contain; 
+}

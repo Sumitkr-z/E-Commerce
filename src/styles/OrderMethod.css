@@ -1,0 +1,39 @@
+.order-method {
+  padding: 20px 0;
+}
+
+.order-box {
+  background: var(--light-color);
+  padding: 20px;
+  border-radius: 10px;
+  margin: 40px 0;
+  width: 100%;
+  height: 150px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: background 0.3s, transform 0.3s;
+
+}
+
+.order-box .icon {
+  color: var(--dark-color);
+  margin-bottom: 10px;
+}
+
+.order-box h4 {
+  font-size: 18px;
+  margin-bottom: 10px;
+  font-weight: 600;
+}
+
+.order-box p {
+  font-size: 14px;
+  color: #666;
+}
+.order-box:hover {
+  background: var(--primary-color);
+  transform: translateY(-5px);
+}
